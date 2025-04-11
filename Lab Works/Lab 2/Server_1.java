@@ -2,7 +2,6 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-
 class Checker{
 
     public boolean isPrime(String str){
@@ -37,9 +36,6 @@ class Checker{
         return str;}
 
 }
-
-
-
 
 public class Server_1 {
     private static final int PORT = 5001;
