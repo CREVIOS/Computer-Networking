@@ -60,7 +60,6 @@ class A extends Thread {
                 } else if (clientMessage.equals("2")) {
                     output.println("Enter the file name you want to download:");
                     output.println();
-                    
                     clientMessage = clientInput.readLine();
                     System.out.println(Thread.currentThread().getName() + " wants to download: " + clientMessage);
                     
